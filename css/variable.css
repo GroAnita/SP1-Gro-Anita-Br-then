@@ -1,0 +1,56 @@
+:root{
+--primarycolor: #3498db;
+--secondarycolor: #2ecc71;
+--tertiarycolor: #e74c3c;
+--backgroundcolor: #0178E0;
+--textcolor: #2c3e50;
+--bordercolor: #bdc3c7;
+--shadowcolor: rgba(0, 0, 0, 0.2);
+--fontfamilyheadlines: 'orbitron', sans-serif;
+--fontweight: 500;
+--fontweightbold: 700;
+--fontsize: 16px;
+--fontfamilyparagraph:
+--lineheight: 1.5;
+--padding: 10px;
+--margin: 10px;
+--borderwidth: 1px;
+--borderstyle: solid;
+--borderradius: 5px;
+--transitionduration: 0.3s;
+--transitiontimingfunction: ease-in-out;
+--hovercolor: #2980b9;
+--activecolor: #27ae60;
+--linkcolor: #3498db;
+--linkhovercolor: #2980b9;
+--buttoncolor: #3498db;
+--buttonhovercolor: #2980b9;
+--buttonactivecolor: #1abc9c;
+--inputbordercolor: #bdc3c7;
+--inputfocusbordercolor: #3498db;
+--inputbackgroundcolor: #ffffff;
+--inputplaceholdercolor: #95a5a6;
+--inputtextcolor: #2c3e50;
+--cardbackgroundcolor: #687F93;
+--cardshadowcolor: rgba(0, 0, 0, 0.1);
+--cardborderradius: 10px;
+--cardpadding: 20px;
+--cardmargin: 20px;
+--cardborderwidth: 1px;
+--cardborderstyle: solid;
+--cardbordercolor: #bdc3c7;
+
+/*border radius*/
+--border-radius: 5px;
+--border-radius-small: 3px;
+--border-radius-medium: 7px;
+--border-radius-large: 10px;
+
+
+.orbitron-font {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+}
