@@ -1,0 +1,57 @@
+.exhibits{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+   
+}
+.exhibit img{
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.exhibit h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 10px 0;
+    font-family: Orbitron, sans-serif;
+    text-align: center;
+}
+.exhibit p{
+    font-size: 16px;
+    color: #ffffff;
+    margin: 10px 0;
+    font-family: Oxygen, sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+.exhibit{
+    max-width: 300px;
+    height: auto;
+    background-color: rgb(103, 103, 103);
+    border-radius: 8px;
+}
+.exhibit:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    transform: background-color(0.3s);
+    background-color: #62a9e7;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.exhibit a{
+    text-decoration: none;
+    color: var(--primarycolor);
+    font-family: 'orbitron', sans-serif;
+    
+}
+.exhibit a:hover{
+    transform: scale(1.3);
+    transition: all 0.3s ease-in-out;
+    color: #cf8000;
+    text-decoration: underline #ff0188;
+    font-weight: 900;
+}

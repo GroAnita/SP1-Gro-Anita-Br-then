@@ -1,49 +1,32 @@
 :root{
---primarycolor: #3498db;
---secondarycolor: #2ecc71;
---tertiarycolor: #e74c3c;
+--primarycolor: #ffffff;
+--secondarycolor: #000000;
+--tertiarycolor: #3498db;
 --backgroundcolor: #0178E0;
---textcolor: #2c3e50;
---bordercolor: #bdc3c7;
---shadowcolor: rgba(0, 0, 0, 0.2);
---fontfamilyheadlines: 'orbitron', sans-serif;
---fontweight: 500;
---fontweightbold: 700;
---fontsize: 16px;
---fontfamilyparagraph:
---lineheight: 1.5;
---padding: 10px;
---margin: 10px;
---borderwidth: 1px;
---borderstyle: solid;
---borderradius: 5px;
---transitionduration: 0.3s;
---transitiontimingfunction: ease-in-out;
---hovercolor: #2980b9;
---activecolor: #27ae60;
---linkcolor: #3498db;
---linkhovercolor: #2980b9;
---buttoncolor: #3498db;
---buttonhovercolor: #2980b9;
---buttonactivecolor: #1abc9c;
---inputbordercolor: #bdc3c7;
---inputfocusbordercolor: #3498db;
---inputbackgroundcolor: #ffffff;
---inputplaceholdercolor: #95a5a6;
---inputtextcolor: #2c3e50;
---cardbackgroundcolor: #687F93;
---cardshadowcolor: rgba(0, 0, 0, 0.1);
---cardborderradius: 10px;
---cardpadding: 20px;
---cardmargin: 20px;
---cardborderwidth: 1px;
---cardborderstyle: solid;
---cardbordercolor: #bdc3c7;
+--fontfamilyheadline: 'Orbitron', sans-serif;
+--fontfamilybody: 'Oxygen', sans-serif;
+--cardbackground: rgb(103, 103, 103);
+--cardhoover: #62a9e7;
+
+/*spacing sheet*/
+--spacing-xxsmall: 4px; /*I will die for you*/
+--spacing-xsmall: 8px;  /*best friends*/
+--spacing-small: 16px;   /*friends*/
+--spacing-medium: 24px;
+--spacing-large: 32px; /*casual friends*/
+--spacing-xlarge: 48px;
+--spacing-xxlarge: 64px; /*acquaintances*/
+--spacing-xxxlarge: 80px; /*distant aquaintances*/
+--spacing-xxxxlarge: 120px; /*who are you again?*/
+
+/*H1*/
+--h1-font-size: 32px;
+--h1-font-weight: 700;
 
 /*border radius*/
 --border-radius: 5px;
 --border-radius-small: 3px;
---border-radius-medium: 7px;
+--border-radius-medium: 8px;
 --border-radius-large: 10px;
 
 
