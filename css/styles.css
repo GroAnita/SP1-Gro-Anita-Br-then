@@ -58,13 +58,11 @@
     height: 120px;
     font-family: Orbitron;
 }
-
 .header p{
     font-size: 2.5rem;
     font-family: var(--fontfamilyheadlines);
     color: var(--primarycolor);
     margin-left: 120px;
-    
 }
 .header-bottom{
     display: flex;
@@ -91,7 +89,6 @@
     color: var(--primarycolor);
     font-size: 1.2rem;
     transition: color 0.3s ease-in-out;
-
 }
 .nav-top a:hover{
     color: #0178E0;
@@ -138,33 +135,21 @@
 }
 
 .hero{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-image: url("../images/museumai.jpg");
     width: 100%;
-    height: 500px;
-    position: relative;
-    overflow: hidden;
+    height: 450px; 
+    object-fit: cover; 
 }
-.hero img{
-    width: 100%;
-    height: 620px;
-    object-fit: cover;
-    position:relative;
-}
-.hero-box{
-    position: absolute;
-    top: 78%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-    width: 100%; 
+
+.hero-box{ 
     max-width: 100%; 
     height: 180px; 
     background-color: rgba(0, 0, 0, 0.6); 
     backdrop-filter: blur(3px); 
     z-index: 1; 
     display: flex;
-    justify-content: space-evenly ;
+    justify-content: space-evenly;
+    margin-top: 270px;
 }
 .hero-text-left{
     display: flex;
@@ -177,6 +162,7 @@
     font-size: 3rem;
     font-family: Orbitron;
     transition: "fade-in" 2s fade-in-out;
+    color: var(--primarycolor);
 }
 .hero-text-left a{
     font-size: 1rem;
@@ -204,7 +190,6 @@
     color: var(--primarycolor);
     transition: color 0.3s ease-in-out;
 }
-
 .ticket-button{
     background-color: var();
     color: #0178E0;
@@ -214,8 +199,7 @@
     font-size: 1.2rem;
     font-family: Orbitron;
     font-weight: 800;
-    margin-right: 70px;
-    
+    margin: auto;
 }
 .ticket-button a{
     text-decoration: none;
@@ -322,13 +306,13 @@ hr{
     justify-content:center;
     align-items: center;
     width: 100%;
-    margin: var(--spacing-small)
+    gap: var(--spacing-small);
 }
 .explore-together-gallery-item img{
     max-width: 450px;
     max-height: 200px;
     border-radius: 8px;
-    margin: var(--spacing-small)
+    margin-top: var(--spacing-small)
 }
 .blue-box-container{
     background-color: #008CB3;
@@ -406,8 +390,9 @@ hr{
 .green-box-left{
     max-width: 700px;
     justify-content: center;
+    align-items: center;
     padding: 10px;
-    margin-left: 60px;
+    
   
 
 }

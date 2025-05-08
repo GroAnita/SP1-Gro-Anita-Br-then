@@ -1,43 +1,92 @@
-
+@import url("mobile.css");
 .support-section {
     display: flex;
-    flex-direction: row;
     align-items: center;
+    justify-content: space-evenly;
     background-color: var(--primarycolor);
     padding: 20px;
     text-align: center;
-    background-image: linear-gradient(to right, rgb(66, 111, 159), rgb(78, 172, 223));
+    margin-top: var(--spacing-medium);
 }
-.support-section p {
-    font-size: 18px;
-    color: var(--primarycolor);
-    margin-bottom: var(--spacing-medium);
+.support-section-reverse {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--primarycolor);
+    padding: 20px;
+    text-align: center;
+    margin-top: var(--spacing-medium);
 }
-.support-section h1 {
-    font-size: var(--h1-font-size);
-    color: var(--primarycolor);
-    margin-bottom: var(--spacing-medium);
-}
-.support-section a {
-    font-size: 18px;
-    color: #fca00d;
-    text-decoration: none;
-    transition: transform 0.3s ease, color 0.3s ease;
-}
-.support-section a:hover {
-    transform: scale(1.3);
-    color:rgb(252, 34, 150);
-}
-.support-section li {
-    list-style: none;
-    margin: 10px 0;
-    text-align: left;
-    color: var(--primarycolor);
-}   
-.support-section img {
-    max-width: 500px;
-    height: auto;
-    border-radius: var(--border-radius-medium);
+.support-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    background-color: var(--tertiarycolor);
+    color:var(--primarycolor);
+    font-family: 'Oxygen', sans-serif;
+    text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin: 0 var(--spacing-medium);
+
+}
+.support-left:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    background-color: #2a3ca6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: var(--border-radius-large);
+}
+.support-left a{
+    color: var(--primarycolor);
+    font-family: 'orbitron', sans-serif;
+}
+.support-left a:hover{
+    transform: scale(1.3);
+    transition: all 0.3s ease-in-out;
+    text-decoration: underline 5px #ff5bb2;
+
+}
+.h1-white{
+    font-size: 32px;
+    color: var(--primarycolor);
+    text-align: center;
+    font-family: Orbitron, sans-serif;
+    margin: var(--spacing-medium);
+}
+.support-right img{
+    width: 500px;
+    height: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.membership-prices{
+    text-align: left;;
+}
+.donations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.donations p{
+    font-size: 20px;
+    color: var(--primarycolor);
+    text-align: left;
+    font-family: Oxygen, sans-serif;
+    margin-right: var(--spacing-small);
+}
+.volunteer-list{
+    text-align: left;
+    margin-left: var(--spacing-large);
+
+}
+.volunteer-p{
+    font-size: 20px;
+    color: var(--primarycolor);
+    text-align: left;
+    font-family: Oxygen, sans-serif;
+    margin-right: var(--spacing-small);
 }
