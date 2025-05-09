@@ -624,7 +624,7 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 100vw;
     height: 500px;
     
     
@@ -641,7 +641,7 @@ hr{
 }
 .social-media {
     position: absolute;
-    bottom: 20%; 
+    bottom: 26%; 
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -657,22 +657,36 @@ hr{
 .social-media i:hover {
     transform: scale(1.2); 
     color: #fd2dad; 
+    
+}
+.wave2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+}
+.wave2 a {
+    font-size: 1.2rem;
+    color: #ffffff;
+    font-family: Orbitron;
+    text-decoration: none;
+    z-index: 1;
+    transition: transform 0.3s ease, color 0.3s ease;
 }
 .wave2 h4{
     font-size: 1.3rem;
     color: #bebebe;
     font-family: Orbitron;
-    position:absolute;
-    top: 65%;
-    left: 40%;
+    
 }
 .wave2 p{
     font-size: 1rem;
     color: #bebebe;
     font-family: Oxygen;
     position:absolute;
-    top: 79%;
-    left: 1%;
+    top: 75%;
+    left: 35%;
 }
 
 

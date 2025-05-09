@@ -1,9 +1,11 @@
 @media (max-width: 600px) {
     .hamburger{
+        display: flex;
+        justify-content: left;
         background-color: var(--primarycolor); 
         color: var(--secondarycolor);
         position: relative;
-        margin-left:20px;
+        padding-left: 10px;
         max-width: 100px;
     }
     .hamburger a{
@@ -17,9 +19,11 @@
        
     }
     .hamburger label{
-        margin: 10px 150px 10px 0px;
+        margin: 10px 100px 10px 0px;
+        font-size: 50px;
         
     }
+    
     .hamburger a{
         display: block;
         color: var(--secondarycolor);
@@ -33,14 +37,14 @@
     .hamburger nav{
         padding: 20px;
         position:absolute;
-        top: 200%;
+        top: 140%;
         left: 0;
         text-align: center;
-        background:#ee08b9;
+        background:#08b8ee;
         box-shadow: 0 8px 30px 0 rgba(0, 0, 0, 0.37);
         border: 1px solid rgba(0, 0, 0, 0.18);
         border-radius: 8px; 
-        width:400px;
+        width:100vw;
         height: 70vh;
         color:var(--color-primary);
         cursor: pointer;
@@ -52,6 +56,18 @@
         border-radius: 8px;
         transition: all 0.3s ease-in-out;
     }
+    .hamburger img{
+        width: 70px;
+        height: 70px;
+        margin: 10px 0px;
+    }
+    .hamburger p{
+        font-family: Orbitron, sans-serif;
+        font-size: 20px;
+        margin-right: 50px;
+        flex: 1;
+           
+    }
     .header_nav1{
         display: flex;
         flex-direction: column ;
@@ -61,9 +77,15 @@
         background-color: var(--primarycolor);
         color: var(--secondarycolor);
         font-family: 'orbitron', sans-serif;
+
     }
     .desktop-nav{
         display:none;
+    }
+    .header_nav1 img{
+        width: 100px;
+        height: 100px;
+        margin: 10px 0px;
     }
 
    
@@ -229,6 +251,20 @@
     color: var(--primarycolor);
     margin-top: 5px;
  }
+ .wave2 h4{
+    font-size: 1.3rem;
+    color: #bebebe;
+    font-family: Orbitron;
+   margin:0px;
+}
+.wave2 p{
+    font-size: 1rem;
+    color: #bebebe;
+    font-family: Oxygen;
+    position:absolute;
+    top: 75%;
+    left: 1%;
+}
 }
 
 
