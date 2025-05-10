@@ -1,8 +1,11 @@
 @media (max-width: 600px) {
+    header{
+        background-color: var(--backgroundcolor);
+    }
     .hamburger{
         display: flex;
         justify-content: left;
-        background-color: var(--primarycolor); 
+        background-color: var(--backgroundcolor); 
         color: var(--secondarycolor);
         position: relative;
         padding-left: 10px;
@@ -26,7 +29,7 @@
     
     .hamburger a{
         display: block;
-        color: var(--secondarycolor);
+        color: var(--primarycolor);
         text-decoration: none;
         font-family: 'orbitron', sans-serif;
         font-size: 20px;
@@ -34,10 +37,14 @@
         padding: 10px;
         
     }
+    .hamburger-csm{
+        color: var(--primarycolor);
+        margin-top: 10px;
+    }
     .hamburger nav{
         padding: 20px;
         position:absolute;
-        top: 140%;
+        top: 100%;
         left: 0;
         text-align: center;
         background:#08b8ee;
@@ -86,6 +93,13 @@
         width: 100px;
         height: 100px;
         margin: 10px 0px;
+    }
+    .header_nav1 p{
+        font-family: Orbitron, sans-serif;
+        font-size: 24px;
+        margin:auto ;
+        flex: 1;
+        color: var(--primarycolor)
     }
 
    
@@ -140,12 +154,11 @@
  .hero-box{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
-    max-height: 250px;
-    margin-top: 200px;
-    background-color: var(--primarycolor);
-    color: var(--secondarycolor);
+    height: 250px !important;
+    margin-top: 80px !important;
+    color: var(--primarycolor);
     font-family: 'orbitron', sans-serif;
  }
  .hero-text-left h2{
@@ -154,12 +167,14 @@
     margin: 0px;
     padding: 0px;
  }
- .hero-text-left-learn a{
+ .hero-box a{
     font-size: 20px;
     text-align: center;
-    margin: 0px;
+    margin: auto;
     padding: 0px;
-    color: red;
+    color: var(--primarycolor);
+    font-family: 'orbitron', sans-serif;
+    font-weight: 500;
     text-decoration: none;
  }
     .hero-text-left-learn a:hover{
