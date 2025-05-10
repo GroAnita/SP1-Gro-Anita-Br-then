@@ -58,7 +58,7 @@
     height: 120px;
     font-family: Orbitron;
 }
-.header p{
+.header h1{
     font-size: 2.5rem;
     font-family: var(--fontfamilyheadlines);
     color: var(--primarycolor);
@@ -288,7 +288,7 @@ hr{
     font-family: Oxygen;
     font-size: 1rem;
 }
-.explore-together-right h2{
+.explore-together-right h5{
     font-size: 2rem;
     font-family: Orbitron;
     text-align: center;
@@ -329,7 +329,7 @@ hr{
   max-width: 700px;
 
 }
-.blue-box-left h2{
+.blue-box-left h6{
     font-size: 2rem;
     font-family: Orbitron;
     text-align: center;
@@ -396,7 +396,7 @@ hr{
   
 
 }
-.green-box-left h2{
+.green-box-left h6{
     font-size: 2rem;
     font-family: Orbitron;
     text-align: center;
@@ -409,13 +409,6 @@ hr{
     text-align: left;
     padding: 10px;
     font-family: Oxygen;   
-}
-.green-box-left h6{
-    font-size: 1.5rem;
-    color:#ffffff;
-    text-align: center;
-    padding: 10px;
-    font-family: Orbitron;   
 }
 .green-box-right{
     display: flex;
@@ -490,7 +483,7 @@ hr{
     height: 300px;
     object-fit: cover;
 }
-.exhibitions-container h2{
+.exhibitions-container h6{
     font-size: 2rem;
     font-family: Orbitron;
     text-align: center;
@@ -674,7 +667,7 @@ hr{
     z-index: 1;
     transition: transform 0.3s ease, color 0.3s ease;
 }
-.wave2 h4{
+.wave2 h6{
     font-size: 1.3rem;
     color: #bebebe;
     font-family: Orbitron;
