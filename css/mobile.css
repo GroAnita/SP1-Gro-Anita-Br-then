@@ -6,7 +6,7 @@
         display: flex;
         justify-content: left;
         background-color: var(--backgroundcolor); 
-        color: var(--secondarycolor);
+        color: #ffa200;
         position: relative;
         padding-left: 10px;
         max-width: 100px;
