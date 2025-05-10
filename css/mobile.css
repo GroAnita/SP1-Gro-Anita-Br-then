@@ -280,6 +280,9 @@
     top: 75%;
     left: 1%;
 }
+.contact-form input{
+    width: 350px !important;
+}
 }
 
 
