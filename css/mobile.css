@@ -283,6 +283,10 @@
 .contact-form input{
     width: 350px !important;
 }
+.aboutus img{
+    max-width: 300px !important;
+    border-radius: 8px;
+    margin-top: var(--spacing-large);}
 }
 
 

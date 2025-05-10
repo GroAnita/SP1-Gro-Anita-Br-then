@@ -55,3 +55,24 @@
     color: var(--primarycolor);
     transition: all 0.3s ease-in-out;
 }
+.aboutus{
+    display: flex;
+    flex-direction: column;
+    color: var(--primarycolor);
+    font-family: 'Oxygen', sans-serif;
+    font-size: 24px;
+    max-width: 1000px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    margin:30px auto;
+    background-color: var(--cardhoover);
+    border-radius: var(--border-radius-medium);
+    border: 3px solid rgb(255, 0, 183);
+    padding: var(--spacing-medium);
+}
+.aboutus img{
+    max-width: 500px;
+    border-radius: 8px;
+    margin-top: var(--spacing-large)
+}
