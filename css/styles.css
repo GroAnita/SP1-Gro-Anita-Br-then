@@ -106,17 +106,18 @@
     margin:5px;
     display: inline-block;
     margin-top: var(--spacing-small);
-    gap: var(--spacing-xsmall);
+    gap: var(--spacing-small);
 }
 .nav-links a {
     position: relative;
     text-decoration: none;
     color: var(--primarycolor);
-    font-size: 1.2rem;
+    text-shadow: -1px 1px 0 #fe07d5, 1px -1px 0 #ff07e6, -1px 1px 0 #000000, -1px -1px 0 #000000;
+    font-size: 1.3rem;
     border-radius: 5px;
     transition: color 0.3s ease-in-out;
     font-family: Orbitron;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .nav-links a::after {
@@ -661,7 +662,7 @@ hr{
     z-index: 1;
     transition: transform 0.3s ease, color 0.3s ease;
 }
-.wave2 h6{
+.wave2 h6, h3{
     font-size: 1.3rem;
     color: #bebebe;
     font-family: Orbitron;
