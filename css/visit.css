@@ -20,7 +20,7 @@ ul{
 }
 .container section details summary{
     padding: 20px;
-    background-color: var(--tertiarycolor);
+    background-color:var(--backgroundcolor); ;
     color:#ffffff;
     font-family: 'orbitron', sans-serif;
     border:1 px solid #130000;
@@ -75,7 +75,7 @@ th, td {
     padding: 10px; 
 }
 th {
-    background-color: #62a9e7; 
+    background-color: var(--backgroundcolor); 
     color: #ffffff; 
     font-weight: bold; 
     text-align: center; 
