@@ -79,6 +79,8 @@ th {
     color: #ffffff; 
     font-weight: bold; 
     text-align: center; 
+    font-family: Orbitron, sans-serif;
+    font-size: 20px;
 }
 td {
     color: #333; 
