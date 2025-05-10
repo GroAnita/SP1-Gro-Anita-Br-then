@@ -19,7 +19,7 @@ ul{
     box-shadow: 0 5px 10px #3334;
 }
 .container section details summary{
-    padding: 15px;
+    padding: 20px;
     background-color: var(--tertiarycolor);
     color:#ffffff;
     font-family: 'orbitron', sans-serif;
@@ -28,7 +28,7 @@ ul{
     list-style: none;
     outline: none;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 24px;
     border-bottom: solid 2px #ffffff;
     
 
