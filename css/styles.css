@@ -318,7 +318,7 @@ hr{
     margin-top: var(--spacing-small)
 }
 .blue-box-container{
-    background-color: #008CB3;
+    background-color: #006c8a;
     border-radius: 8px;
     margin-top: 30px;
     border: solid 5px #036650;
@@ -506,7 +506,7 @@ hr{
     justify-content: center;
     align-items: center;
     width: 400px;
-    background-color: #fb019b;
+    background-color: #ff009d;
     border-radius: 8px;
     outline: solid 5px #036650;
     transform: transform 0.3s ease;
@@ -520,7 +520,7 @@ hr{
     justify-content: center;
     align-items: center;
     width: 400px;
-    background-color: #008CB3;
+    background-color: #007495;
     border-radius: 8px;
     outline: solid 5px #036650;
     transform: transform 0.3s ease;
@@ -534,7 +534,7 @@ hr{
     justify-content: center;
     align-items: center;
     width: 400px;
-    background-color: #0DBC07;
+    background-color: #059f00;
     border-radius: 8px;
     outline: solid 5px #036650;
     transform: transform 0.3s ease;
