@@ -360,7 +360,7 @@ hr{
     font-size: 1.3rem;
     text-shadow: -1px 2px 0 #000, 1px -2px 0 #000, -1px 2px 0 #000, -1px -1px 0 #000000;
     font-weight: 700;
-    color:#f88306;
+    color:#00b3ff;
     font-family: Orbitron;
     margin:30px;
     padding: 10px;
@@ -487,7 +487,7 @@ hr{
     color:#ffffff;
 }
 .exhibitions-container p{
-    font-size: 0.9rem;
+    font-size: 1rem;
     color:#ffffff;
     text-align: left;
     padding: 10px;
@@ -499,7 +499,7 @@ hr{
     justify-content: center;
     align-items: center;
     width: 400px;
-    background-color: #ff009d;
+    background-color: #d10081;
     border-radius: 8px;
     outline: solid 5px #036650;
     transform: transform 0.3s ease;
@@ -527,7 +527,7 @@ hr{
     justify-content: center;
     align-items: center;
     width: 400px;
-    background-color: #059f00;
+    background-color: #3b573a;
     border-radius: 8px;
     outline: solid 5px #036650;
     transform: transform 0.3s ease;
