@@ -4,6 +4,7 @@
 @import url("./exhibit.css");
 @import url("./support.css");
 @import url("./contact-about.css");
+@import url("./specialevents.css");
  *{
     box-sizing: border-box;
     margin: 0;
@@ -469,13 +470,15 @@ hr{
 .exhibitions-container{
     display: flex;
     align-items: center;
-    width: 100%;
-    justify-content: space-evenly;
+    justify-content: center;
+    max-width: 350px;
+    margin: auto;
     margin-top:50px;
+    gap: 20px;
    
 }
 .exhibitions-container img{
-    width: 400px;
+   max-width: 350px;
     height: 300px;
     object-fit: cover;
 }
@@ -498,7 +501,7 @@ hr{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 400px;
+    width: 350px;
     background-color: #d10081;
     border-radius: 8px;
     outline: solid 5px #036650;
@@ -512,7 +515,7 @@ hr{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 400px;
+    width: 350px;
     background-color: #007495;
     border-radius: 8px;
     outline: solid 5px #036650;
@@ -526,7 +529,7 @@ hr{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 400px;
+    width: 350px;
     background-color: #3b573a;
     border-radius: 8px;
     outline: solid 5px #036650;

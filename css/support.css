@@ -25,7 +25,7 @@
     width: 500px;
     height: 500px;
     border-radius: 100%;
-    background-color: var(--tertiarycolor);
+    background-color: var(--backgroundcolor);
     color:var(--primarycolor);
     font-family: 'Oxygen', sans-serif;
     text-align: center;

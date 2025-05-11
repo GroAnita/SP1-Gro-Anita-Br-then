@@ -310,6 +310,12 @@
         font-family: Oxygen, sans-serif;
         font-size: 18px;
     }
+    .special-event img{
+        width: 370px;
+        object-fit: fill;
+        border-radius: 8px;
+        margin-top: var(--spacing-large);
+    }
 }
 
 
