@@ -358,9 +358,9 @@ hr{
 .club-link{
     text-align: center;
     font-size: 1.3rem;
-    text-shadow: -1px 2px 0 #000, 1px -2px 0 #000, -1px 2px 0 #000, -1px -1px 0 #000000;
+    text-shadow: -1px 3px 0 #fe05c0, 1px -3px 0 #000, -1px 2px 0 #000, -1px -2px 0 #000000;
     font-weight: 700;
-    color:#00b3ff;
+    color:#ffffff;
     font-family: Orbitron;
     margin:30px;
     padding: 10px;
