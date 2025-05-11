@@ -112,7 +112,7 @@
     position: relative;
     text-decoration: none;
     color: var(--primarycolor);
-    text-shadow: -1px 1px 0 #fe07d5, 1px -1px 0 #ff07e6, -1px 1px 0 #000000, -1px -1px 0 #000000;
+    text-shadow: -1px 2px 0 #000000, 1px -2px 0 #000, -1px 2px 0 #000, -1px -1px 0 #000000;
     font-size: 1.3rem;
     border-radius: 5px;
     transition: color 0.3s ease-in-out;
@@ -310,9 +310,8 @@ hr{
 .blue-box-container{
     background-color: #006c8a;
     border-radius: 8px;
-    margin-top: 30px;
     border: solid 5px #036650;
-    margin: var(--spacing-large) 0;
+    margin: var(--spacing-large) auto;
 }
 .blue-box1{
     display: flex;
@@ -337,7 +336,7 @@ hr{
     font-family: Oxygen;   
 }
 .blue-box-right img{
-    width: 400px;
+    max-width: 400px;
     object-fit: fill;
     border-radius: 8px;
     margin-top:30px;
@@ -349,21 +348,24 @@ hr{
     width: 100%;
 }
 .blue-box-links p{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: var(--primarycolor);
     text-align: center;
-    padding: 10px;
-    font-family: Oxygen;   
+    padding: 0px;
+    font-family: Orbitron;  
+    font-weight: 700; 
 }
 .club-link{
     text-align: center;
     font-size: 1.3rem;
+    text-shadow: -1px 2px 0 #000, 1px -2px 0 #000, -1px 2px 0 #000, -1px -1px 0 #000000;
+    font-weight: 700;
     color:#f88306;
     font-family: Orbitron;
     margin:30px;
     padding: 10px;
     text-decoration: none;
-    border: dotted 3px #fbc100;
+    border: dotted 10px #d2f00a;
 }
 .club-link:hover{
     transform: scale(1.2); 
@@ -416,7 +418,6 @@ hr{
     width: 400px;
     object-fit: fill;
     border-radius: 8px;
-    margin-top:30px;
 }
 .green-box-links{
     display: flex;
@@ -662,7 +663,7 @@ hr{
     z-index: 1;
     transition: transform 0.3s ease, color 0.3s ease;
 }
-.wave2 h6, h3{
+.wave2 h6, h3, h4{
     font-size: 1.3rem;
     color: #bebebe;
     font-family: Orbitron;
