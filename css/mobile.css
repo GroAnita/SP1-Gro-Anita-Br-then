@@ -175,8 +175,8 @@
     color: var(--primarycolor);
     font-family: 'orbitron', sans-serif;
  }
- .hero-text-left h2{
-    font-size: 20px;
+ .hero-text-left h3{
+    font-size: 32px !important;
     text-align: center;
     margin: 0px;
     padding: 0px;

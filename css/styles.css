@@ -359,14 +359,16 @@ hr{
 .club-link{
     text-align: center;
     font-size: 1.3rem;
-    text-shadow: -1px 3px 0 #fe05c0, 1px -3px 0 #000, -1px 2px 0 #000, -1px -2px 0 #000000;
     font-weight: 700;
-    color:#ffffff;
+    color:#FFBF10;
     font-family: Orbitron;
     margin:30px;
     padding: 10px;
     text-decoration: none;
-    border: dotted 10px #d2f00a;
+    border: solid 5px #FFBF10;
+    width: 250px;
+    border-radius: 5px;
+    background-color: #032F61;
 }
 .club-link:hover{
     transform: scale(1.2); 
