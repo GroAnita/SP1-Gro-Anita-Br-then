@@ -7,17 +7,21 @@
 --fontfamilybody: 'Oxygen', sans-serif;
 --cardbackground: rgb(103, 103, 103);
 --cardhoover: #62a9e7;
+--p-font-size: 16px;
+--headline-font-size: 32px;
+--subheadline-font-size: 24px;
+--button-font-size: 19px;
 
 /*spacing sheet*/
---spacing-xxsmall: 4px; /*I will die for you*/
---spacing-xsmall: 8px;  /*best friends*/
---spacing-small: 16px;   /*friends*/
+--spacing-xxsmall: 4px; 
+--spacing-xsmall: 8px;  
+--spacing-small: 16px;   
 --spacing-medium: 24px;
---spacing-large: 32px; /*casual friends*/
+--spacing-large: 32px; 
 --spacing-xlarge: 48px;
---spacing-xxlarge: 64px; /*acquaintances*/
---spacing-xxxlarge: 80px; /*distant aquaintances*/
---spacing-xxxxlarge: 120px; /*who are you again?*/
+--spacing-xxlarge: 64px; 
+--spacing-xxxlarge: 80px; 
+--spacing-xxxxlarge: 120px; 
 
 /*H1*/
 --h1-font-size: 32px;

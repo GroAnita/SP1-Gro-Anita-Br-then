@@ -31,23 +31,21 @@ ul{
     font-size: 22px;
     font-weight: 700;
     border-bottom: solid 2px #ffffff;
-    
-
-
 }
 .container section details p{
     padding: 15px;
     background: #ffffff;
     color:#000000;
     border:1 px solid #130000;
-    font-size: 20px;
+    font-size: var(--p-font-size);
 }
 .container section details li{
     padding: 15px;
     background: #ffffff;
     color:#000000;
     border:1 px solid #130000;
-    font-size: 20px;
+    font-size: var(--p-font-size);
+    margin:0;
 }
 .container section details summary::after{
     content: '+';
@@ -118,7 +116,7 @@ iframe{
     border: 3px solid #62a9e7;
 }
 .visit-h2{
-    font-size: 30px;
+    font-size: var(--h1-font-size);
     color: #000000;
     text-align: center;
     font-family: Orbitron, sans-serif;

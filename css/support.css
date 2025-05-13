@@ -22,15 +22,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 500px;
-    height: 500px;
+    width: 550px;
+    height: 550px;
     border-radius: 100%;
     background-color: var(--backgroundcolor);
     color:var(--primarycolor);
     font-family: 'Oxygen', sans-serif;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-
+    
 }
 .support-left:hover{
     transform: scale(1.05);
@@ -39,6 +39,15 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: var(--border-radius-large);
 }
+.support-left p{
+    font-size: 16px;
+    max-width: 400px;
+    color: var(--primarycolor);
+    text-align: center;
+    font-family: Oxygen, sans-serif;
+    margin-right: var(--spacing-small);
+}
+
 .support-left a{
     color: var(--primarycolor);
     font-family: 'orbitron', sans-serif;
@@ -47,10 +56,20 @@
     transform: scale(1.3);
     transition: all 0.3s ease-in-out;
     text-decoration: underline 5px #ff5bb2;
-
+}
+.support-left li{
+    font-size: var(--p-font-size);
+    margin:0;
+}
+.h1-white1{
+    font-size: var(--h1-font-size);
+    color: var(--primarycolor);
+    text-align: center;
+    font-family: Orbitron, sans-serif;
+    margin: var(--spacing-medium);
 }
 .h1-white{
-    font-size: 32px;
+    font-size: var(--h1-font-size);
     color: var(--primarycolor);
     text-align: center;
     font-family: Orbitron, sans-serif;
@@ -73,18 +92,21 @@
 }
 .donations p{
     font-size: 20px;
+    max-width: 400px;
     color: var(--primarycolor);
     text-align: left;
     font-family: Oxygen, sans-serif;
     margin-right: var(--spacing-small);
 }
-.volunteer-list{
+.volunteer-list li{
+    font-size: var(--p-font-size);
     text-align: left;
     margin-left: var(--spacing-large);
 
 }
 .volunteer-p{
-    font-size: 20px;
+    font-size: 14px;
+    max-width: 400px;
     color: var(--primarycolor);
     text-align: left;
     font-family: Oxygen, sans-serif;
