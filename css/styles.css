@@ -1,5 +1,5 @@
 @import url("./variable.css");
-@import url("./mobile.css");
+
 @import url("./visit.css");
 @import url("./exhibit.css");
 @import url("./support.css");
@@ -684,4 +684,4 @@ hr{
 }
 
 
-
+@import url("./mobile.css");

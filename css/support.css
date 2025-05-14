@@ -112,3 +112,85 @@
     font-family: Oxygen, sans-serif;
     margin-right: var(--spacing-small);
 }
+@media (max-width: 1000px) {
+    .support-left{
+        max-width: 375px ;
+        max-height: 375px ;
+        border-radius: 100%;   
+     }
+     .support-right{
+        max-width: 375px ;
+        max-height: 375px ;
+        border-radius: 0;
+     }
+     .support-section{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+     }
+     .support-section-reverse{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+     }
+     .support-section img{
+        max-width: 370px;
+        height: 100%;
+        border-radius: 8px;
+        object-fit: cover;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+     }
+     .support-section-reverse img{
+        max-width: 370px;
+        height: 100%;
+        border-radius: 8px;
+        object-fit: cover;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+     }
+     .support-section p{
+        font-size: 13px;
+        max-width: 280px;
+        color: var(--primarycolor);
+        text-align: center;
+        font-family: Oxygen, sans-serif;
+       
+     }
+     .support-section ul{
+        font-size: 13px ;
+        max-width: 280px;
+     }
+     .support-section li{
+        font-size: 13px ;
+        max-width: 280px;
+       
+     }
+     .support-left h1{
+        font-size: 16px ;
+     }
+     .support-left h2{
+        font-size: 16px;
+     }
+     .support-left h3{
+        font-size: 16px;
+     }
+     .support-left ul{
+        font-size: 13px;
+        max-width: 280px;
+     }
+     .support-left li{
+            font-size: 13px ;
+            max-width: 280px;
+    }
+    .support-left p{
+            font-size: 13px ;
+            max-width: 280px;
+    }
+}
+
+
+
+

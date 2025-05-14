@@ -76,3 +76,27 @@
     border-radius: 8px;
     margin-top: var(--spacing-large)
 }
+
+@media screen and (max-width: 1000px) {
+    .contact-form input{
+        width: 350px ;
+    }
+    .aboutus img{
+        max-width: 300px ;
+        border-radius: 8px;
+        margin-top: var(--spacing-large);
+    }
+    .aboutus p{
+        font-size: 13px;
+    }
+    .aboutus h2 h3 h4{
+        font-size: 20px;
+    }
+    .aboutus li{
+        font-size: 13px;
+    }
+    .aboutus ul{
+        font-size: 13px;
+    }
+    
+}
