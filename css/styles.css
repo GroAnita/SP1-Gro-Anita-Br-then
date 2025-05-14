@@ -21,7 +21,7 @@
 .header-top{
     background-color:#0C0C0C;
     width: 100%;
-    height: 40px;
+    height: 50px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -38,16 +38,17 @@
     font-family:Orbitron;
 }
 .ticket-link{
-    background-color: #004181;
+    background-color: var(--backgroundcolor);
     color: var(--primarycolor);
     padding: 5px 20px;
     border-radius: 5px;
     font-size: 1.2rem;
+    font-weight: 700;
     text-decoration: none;
     border: solid 2px #ffffff;
 }
 .ticket-link:hover{
-    background-color: #fde300;
+    background-color: #ffbf10;
     color: #ffffff;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
@@ -91,6 +92,8 @@
     text-decoration: none;
     color: var(--primarycolor);
     font-size: var(--button-font-size);
+    font-family: Orbitron;
+    font-weight: 700;
     transition: color 0.3s ease-in-out;
 }
 .nav-top a:hover{
@@ -360,7 +363,7 @@ hr{
     text-align: center;
     font-size: 1.3rem;
     font-weight: 700;
-    color:#FFBF10;
+    color: var(--primarycolor);
     font-family: Orbitron;
     margin:30px;
     padding: 10px;
@@ -368,7 +371,7 @@ hr{
     border: solid 5px #FFBF10;
     width: 250px;
     border-radius: 5px;
-    background-color: #032F61;
+    background-color: var(--backgroundcolor);
 }
 .club-link:hover{
     transform: scale(1.2); 
@@ -380,7 +383,6 @@ hr{
     margin: var(--spacing-large) 0;
     border-radius: 8px;
     border: solid 5px #0849ed;
-
 }
 
 .green-box1{
@@ -392,9 +394,6 @@ hr{
     justify-content: center;
     align-items: center;
     padding: 10px;
-    
-  
-
 }
 .green-box-left h6{
     font-size: var(--h1-font-size);
@@ -518,7 +517,7 @@ hr{
     justify-content: center;
     align-items: center;
     width: 350px;
-    background-color: #007495;
+    background-color: var(--bluebox);
     border-radius: var(--border-radius-medium);
     outline: solid 5px #036650;
     transform: transform 0.3s ease;
@@ -532,7 +531,7 @@ hr{
     justify-content: center;
     align-items: center;
     width: 350px;
-    background-color: #3b573a;
+    background-color: var(--greenbox);
     border-radius: var(--border-radius-medium);
     outline: solid 5px #036650;
     transform: transform 0.3s ease;
@@ -670,7 +669,7 @@ hr{
 }
 .wave2 h6, h3, h4{
     font-size: var(--subheadline-font-size);
-    color: #f908bd;
+    color: var(--freshlinks);
     font-family: Orbitron;
     
 }

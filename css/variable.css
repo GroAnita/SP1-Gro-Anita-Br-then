@@ -5,15 +5,17 @@
 --backgroundcolor: #0178E0;
 --fontfamilyheadline: 'Orbitron', sans-serif;
 --fontfamilybody: 'Oxygen', sans-serif;
---cardbackground: rgb(103, 103, 103);
 --cardhoover: #62a9e7;
+--greenbox: #4C7F71;
+--bluebox: #006C8A;
+--freshlinks: #F908BD;
 --p-font-size: 16px;
 --headline-font-size: 32px;
 --subheadline-font-size: 24px;
 --button-font-size: 19px;
 
 /*spacing sheet*/
---spacing-xxsmall: 4px; 
+--spacing-xxsmall: 4px; /*I will die for you*/
 --spacing-xsmall: 8px;  
 --spacing-small: 16px;   
 --spacing-medium: 24px;

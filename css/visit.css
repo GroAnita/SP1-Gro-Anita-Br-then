@@ -122,17 +122,25 @@ iframe{
     font-family: Orbitron, sans-serif;
     margin-top: 20px;;
 }
+.blue-box-container-visit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: var(--spacing-medium);
+    background-color: var(--bluebox);
+    border-radius: 8px;
+}
 .blue-box-right-visit{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 20px;
-
-  
 }
 .blue-box-right-visit img{
-    width: 90%;
+    max-width: 500px;
     height: 100%;
     border-radius: 5px;
     object-fit: cover;
@@ -148,12 +156,17 @@ iframe{
     color: var(--primarycolor);
     max-width: 700px;
 }
-.blue-box-left-visit h2{
+.blue-box-left-visit h3{
     font-size: 32px;
     color: var(--primarycolor);
     text-align: center;
     font-family: Orbitron, sans-serif;
     margin: var(--spacing-medium);
+}
+.blue-box-left-visit a{
+    text-decoration: none;
+    color: var(--primarycolor);
+    font-family: 'orbitron', sans-serif;
 }
 .blue-box-left-visit p{
     font-size: 20px;
@@ -162,7 +175,17 @@ iframe{
     font-family: Oxygen, sans-serif;
     margin: var(--spacing-medium);
 }
-.green-box-left-museum{
+.green-box-container-visit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: var(--spacing-medium);
+    background-color: var(--greenbox);
+    border-radius: 8px;
+}
+.green-box-left-visit{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -171,34 +194,29 @@ iframe{
     color: var(--primarycolor);
     max-width: 700px;
 }
-.green-box-left-museum h2{
-    font-size: 32px;
+.green-box-left-visit h3{
+    font-size: var(--h1-font-size);
     color: var(--primarycolor);
     text-align: center;
     font-family: Orbitron, sans-serif;
     margin: var(--spacing-medium);
 }
-.green-box-left-museum p{
+.green-box-left-visit p{
     font-size: 20px;
     color: var(--primarycolor);
     text-align: center;
     font-family: Oxygen, sans-serif;
     margin: var(--spacing-medium);
 }
-.green-box-right-museum{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    color: var(--primarycolor);
-    max-width: 700px;
-}
-.green-box-right-museum img{
-    width: 90%;
+.green-box-right-visit img{
+    max-width: 500px;
     height: 100%;
     border-radius: 5px;
     object-fit: cover;
     margin:var(--spacing-medium);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   
 }
+
+
 

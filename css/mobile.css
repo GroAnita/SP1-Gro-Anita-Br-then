@@ -310,6 +310,24 @@
         font-family: Oxygen, sans-serif;
         font-size: 18px;
     }
+    .blue-box-container-visit{
+        flex-direction: column;
+    }
+    .blue-box-container-visit img{
+        max-width: 350px !important;
+        object-fit: fill;
+        border-radius: 8px;
+        margin-top:30px;
+    }
+    .green-box-container-visit{
+        flex-direction: column;
+    }
+    .green-box-container-visit img{
+        max-width: 350px !important;
+        object-fit: fill;
+        border-radius: 8px;
+        margin-top:30px;
+    }
     .special-event img{
         width: 370px;
         object-fit: fill;

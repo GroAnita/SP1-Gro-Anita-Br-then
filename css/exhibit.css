@@ -31,7 +31,7 @@
 .exhibit{
     max-width: 300px;
     height: auto;
-    background-color: rgb(103, 103, 103);
+    background-color: var(--bluebox);
     border-radius: 8px;
 }
 .exhibit:hover{
