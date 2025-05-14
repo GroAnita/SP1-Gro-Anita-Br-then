@@ -246,7 +246,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
  }
  .support-section p{
-    font-size: 13px;
+    font-size: 13px !important;
     max-width: 280px;
     color: var(--primarycolor);
     text-align: center;
@@ -254,12 +254,17 @@
    
  }
  .support-section ul{
-    font-size: 13px;
+    font-size: 13px !important;
     max-width: 280px;
  }
+ .support-section li{
+    font-size: 13px !important;
+    max-width: 280px;
+   
+ }
  .support-left h1{
-    font-size: 16px;
- }  
+    font-size: 16px !important;
+ }
  .support-left h2{
     font-size: 16px;
  }
@@ -267,15 +272,19 @@
     font-size: 16px;
  }
  .support-left ul{
-    font-size: 13px;
+    font-size: 13px !important;
     max-width: 280px;
  }
-    .support-left p{
-        font-size: 13px;
+ .support-left li{
+        font-size: 13px !important;
         max-width: 280px;
-    }
+}
+.support-left p{
+        font-size: 13px !important;
+        max-width: 280px;
+}
  .donations p{
-    font-size: 13px;
+    font-size: 13px !important;
     max-width: 280px;
     color: var(--primarycolor);
     margin-top: 5px;
