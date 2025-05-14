@@ -334,6 +334,9 @@
         border-radius: 8px;
         margin-top: var(--spacing-large);
     }
+    .member-links {
+        flex-direction: column !important;
+    }
 }
 
 

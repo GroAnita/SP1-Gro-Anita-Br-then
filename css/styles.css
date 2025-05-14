@@ -5,6 +5,7 @@
 @import url("./support.css");
 @import url("./contact-about.css");
 @import url("./specialevents.css");
+@import url("./membership-tickets.css");
  *{
     box-sizing: border-box;
     margin: 0;
