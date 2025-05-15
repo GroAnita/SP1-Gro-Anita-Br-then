@@ -103,101 +103,7 @@
     }
 
    
-  .explore-together{
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin:0px;
-    padding: 0px;
-  }
-  .explore-together-gallery{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin:0px;
-    padding: 0px;
-  }
-  .blue-box1, .green-box1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .exhibitions-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-  }
-  .blue-box-right img{
-    max-width: 350px !important;
-    object-fit: fill;
-    border-radius: 8px;
-    margin-top:30px;
-}
-.blue-box-links{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-}
-  .green-box-left{
-    margin:0px;
-    align-items: center;
-  }
-  .green-box-left h2{
-    font-size: 13px;
-    text-align: center;
-    margin: 0px;
-  }
-  .explore-together-gallery-item{
-   max-width: 80%;
-  }
-  .container{
-    display: flex;
-    flex-direction: column;
-    align-items: center ;
-    justify-content: center;
-    margin: 0px;
-    padding: 0px;
-  }
- .hero-box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 250px !important;
-    margin-top: 80px !important;
-    color: var(--primarycolor);
-    font-family: 'orbitron', sans-serif;
- }
- .hero-text-left h3{
-    font-size: 32px !important;
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
- }
- .hero-box a{
-    font-size: 20px;
-    text-align: center;
-    margin: auto;
-    padding: 0px;
-    color: var(--primarycolor);
-    font-family: 'orbitron', sans-serif;
-    font-weight: 500;
-    text-decoration: none;
- }
-    .hero-text-left-learn a:hover{
-        color: var(--tertiarycolor);
-        text-decoration: underline;
-        transition: all 0.3s ease-in-out;
-    }
- .hero-text-right p{
-       display: none;
-    }
+ 
  .exhibits{
     display: flex;
     flex-direction: column;
@@ -240,24 +146,7 @@
         font-family: Oxygen, sans-serif;
         font-size: 15px;
     }
-    .blue-box-container-visit{
-        flex-direction: column;
-    }
-    .blue-box-container-visit img{
-        max-width: 350px !important;
-        object-fit: fill;
-        border-radius: 8px;
-        margin-top:30px;
-    }
-    .green-box-container-visit{
-        flex-direction: column;
-    }
-    .green-box-container-visit img{
-        max-width: 350px !important;
-        object-fit: fill;
-        border-radius: 8px;
-        margin-top:30px;
-    }
+   
     .special-event img{
         width: 370px;
         object-fit: fill;
@@ -266,6 +155,12 @@
     }
     .member-links {
         flex-direction: column !important;
+    }
+    iframe{
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+        margin-top: 20px;
     }
 }
 

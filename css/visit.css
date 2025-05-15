@@ -218,5 +218,34 @@ iframe{
    
 }
 
+@media screen and (max-width: 1000px) {
+    .blue-box-container-visit{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .blue-box-left-visit{
+        max-width: 100%;
+    }
+    .blue-box-right-visit img{
+        max-width: 440px;
+        height: auto;
+    }
+    .green-box-container-visit{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .green-box-left-visit{
+        max-width: 100%;
+    }
+    .green-box-right-visit img{
+        max-width: 440px;
+        height: auto;
+    }
+    
+}
 
 

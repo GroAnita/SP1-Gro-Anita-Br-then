@@ -6,6 +6,7 @@
 @import url("./contact-about.css");
 @import url("./specialevents.css");
 @import url("./membership-tickets.css");
+@import url("./mobile.css");
  *{
     box-sizing: border-box;
     margin: 0;
@@ -684,4 +685,102 @@ hr{
 }
 
 
-@import url("./mobile.css");
+
+@media screen and (max-width: 1000px) {
+    .explore-together{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin:0px;
+        padding: 0px;
+      }
+      .explore-together-gallery{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin:0px;
+        padding: 0px;
+      }
+      .blue-box1, .green-box1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .exhibitions-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+      }
+      .blue-box-right img{
+        max-width: 350px ;
+        object-fit: fill;
+        border-radius: 8px;
+        margin-top:30px;
+    }
+    .blue-box-links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+      .green-box-left{
+        margin:0px;
+        align-items: center;
+      }
+      .green-box-left h2{
+        font-size: 13px;
+        text-align: center;
+        margin: 0px;
+      }
+      .explore-together-gallery-item{
+       max-width: 80%;
+      }
+      .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center ;
+        justify-content: center;
+        margin: 0px;
+        padding: 0px;
+      }
+     .hero-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 250px ;
+        margin-top: 80px ;
+        color: var(--primarycolor);
+        font-family: 'orbitron', sans-serif;
+     }
+     .hero-text-left h3{
+        font-size: 32px ;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+     }
+     .hero-box a{
+        font-size: 20px;
+        text-align: center;
+        margin: auto;
+        padding: 0px;
+        color: var(--primarycolor);
+        font-family: 'orbitron', sans-serif;
+        font-weight: 500;
+        text-decoration: none;
+     }
+        .hero-text-left-learn a:hover{
+            color: var(--tertiarycolor);
+            text-decoration: underline;
+            transition: all 0.3s ease-in-out;
+        }
+     .hero-text-right p{
+           display: none;
+        }
+    
+}
