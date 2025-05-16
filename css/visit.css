@@ -144,7 +144,7 @@ iframe{
     height: 100%;
     border-radius: 5px;
     object-fit: fill;
-    margin:var(--spacing-medium);
+
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .blue-box-left-visit{
@@ -161,7 +161,7 @@ iframe{
     color: var(--primarycolor);
     text-align: center;
     font-family: Orbitron, sans-serif;
-    margin: var(--spacing-medium);
+    margin: var(--spacing-medium) 0px;
 }
 .blue-box-left-visit a{
     text-decoration: none;
@@ -173,7 +173,7 @@ iframe{
     color: var(--primarycolor);
     text-align: center;
     font-family: Oxygen, sans-serif;
-    margin: var(--spacing-medium);
+    margin: var(--spacing-medium) 0px;
 }
 .green-box-container-visit{
     display: flex;
@@ -199,21 +199,20 @@ iframe{
     color: var(--primarycolor);
     text-align: center;
     font-family: Orbitron, sans-serif;
-    margin: var(--spacing-medium);
+    margin: var(--spacing-medium) 0px;
 }
 .green-box-left-visit p{
     font-size: 20px;
     color: var(--primarycolor);
     text-align: center;
     font-family: Oxygen, sans-serif;
-    margin: var(--spacing-medium);
+    margin: var(--spacing-medium) 0px;
 }
 .green-box-right-visit img{
     max-width: 500px;
     height: 100%;
     border-radius: 5px;
     object-fit: cover;
-    margin:var(--spacing-medium);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
    
 }
@@ -229,7 +228,7 @@ iframe{
         max-width: 100%;
     }
     .blue-box-right-visit img{
-        max-width: 440px;
+        max-width: 370px;
         height: auto;
     }
     .green-box-container-visit{
@@ -242,8 +241,9 @@ iframe{
         max-width: 100%;
     }
     .green-box-right-visit img{
-        max-width: 440px;
+        max-width: 100%;
         height: auto;
+        
     }
     
 }
