@@ -112,9 +112,6 @@ tr:hover {
 .menu-link a:hover{
     text-decoration: underline #ff0188;
 }
-iframe{ 
-    border: 3px solid #62a9e7;
-}
 .visit-h2{
     font-size: var(--h1-font-size);
     color: #000000;
