@@ -302,16 +302,18 @@ hr{
 }
 .explore-together-gallery{
     display: flex;
-    justify-content:center;
+    justify-content: flex-end;
     align-items: center;
     width: 100%;
     gap: var(--spacing-small);
 }
+
 .explore-together-gallery-item img{
     max-width: 450px;
     max-height: 200px;
     border-radius: 8px;
-    margin-top: var(--spacing-small)
+    margin-top: var(--spacing-small);
+    margin-right: 120px;
 }
 .blue-box-container{
     background-color: #006c8a;

@@ -36,6 +36,8 @@
         font-size: 20px;
         font-weight: 500;
         padding: 10px;
+       
+       
     }
     .hamburger-csm{
         color: var(--primarycolor);
@@ -99,8 +101,8 @@
         font-size: 24px;
         margin:auto ;
         flex: 1;
-        color: var(--primarycolor)
-    }
+        color: var(--primarycolor);
+        }
 
    
  
