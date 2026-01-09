@@ -2,6 +2,9 @@
 
 ** A semester project built with HTML, CSS, and design principles **
 
+<img width="1606" height="711" alt="Screenshot 2026-01-09 at 11 27 36" src="https://github.com/user-attachments/assets/6b86c476-f2ce-49af-8c3c-5100f7d45cd2" />
+
+
 ### 📌 Project Description
 
 The Community Science Museum is a semester-long project created as part of my Front-End Development studies at Noroff.
